@@ -28,7 +28,7 @@ typedef struct lookup_response {
 } lookup_response_t;
 
 typedef struct scope {
-    const json_t *scope;
+    json_t *scope;
 } scope_t;
 
 // Function Prototypes
